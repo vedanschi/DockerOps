@@ -142,7 +142,8 @@ Before proceeding, confirm that **Docker** and **Python** are installed:
 
 ✅ Check Docker version:  
 ```bash
-docker --version 
+docker --version
+```bash
 
 ### 🔹 Step 3: Build & Run Your Dockerized Application
 🛠️ i) Build the Docker Image
