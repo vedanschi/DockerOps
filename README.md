@@ -143,3 +143,32 @@ Before proceeding, confirm that **Docker** and **Python** are installed:
 ✅ Check Docker version:  
 ```bash
 docker --version 
+
+### 🔹 Step 3: Build & Run Your Dockerized Application
+🛠️ i) Build the Docker Image
+
+Use the following command to build your Docker image:
+
+```bash
+docker build -t myapp .
+
+### 🔍 ii) Verify the Image Creation
+Check if your Docker image was created successfully:
+
+```bash
+docker images
+
+### ▶️ iii) Run the Docker Container
+Execute the container to print "Hello, World!" in the console:
+
+```bash
+docker run myapp
+
+### 🎯 Conclusion
+This guide provides a structured approach to running your first Dockerized Python application. 🐳✨
+
+🔹 Next Steps: Explore Docker volumes, networking, and multi-container applications! 💡
+
+🚀 Happy Docking! ⚓🌊
+
+
